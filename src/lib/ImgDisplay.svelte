@@ -20,4 +20,6 @@
   });
 </script>
 
-<img src={$screenshotSrc} class="w-2/3 rounded-xl drop-shadow-xl opacity-90" />
+<!-- svelte-ignore a11y-missing-attribute -->
+<img src={$screenshotSrc} class="rounded-xl drop-shadow-xl opacity-90" style="max-width: 65%; max-height: 65%;"/>
+
